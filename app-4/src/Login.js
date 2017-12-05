@@ -28,8 +28,6 @@ export default class Login extends Component {
     alert(`Username: ${ this.state.username } Password: ${ this.state.password }`);
   }
 
-  
-
   render() {
     return (
       <div>
