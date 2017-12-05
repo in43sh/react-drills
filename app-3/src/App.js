@@ -19,10 +19,8 @@ class App extends Component {
     let displayArray = this.state.arr.filter((el) => {
       return el.includes(this.state.userInput)
     }).map((el, i) => {
-      return (
-        <h2 key={ i }>{ el }</h2>
-      )
-    } )
+      return <h2 key={ i }>{ el }</h2>
+    })
 
     // let displayArray = this.state.arr.filter((el) => el.startsWith(this.state.userInput)).map((el, i) => {
     //   return (
